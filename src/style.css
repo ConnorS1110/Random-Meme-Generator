@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+}
+
+.header {
+    height: 65px;
+    background: linear-gradient(to right, #672280, #A626D3);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.header-image {
+    padding-left: 20px;
+    height: 26px;
+}
+
+.header-name {
+    font-weight: 700;
+    font-size: 20.75px;
+    letter-spacing: -0.02em;
+    padding-left: 7px;
+    margin: 0;
+}
+
+.header-info {
+    font-family: "Inter", sans-serif;
+    margin: 0 0 0 auto;
+    padding-right: 35px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form {
+    margin: 36px;
+}
+
+.input-container {
+    display: flex;
+    gap: 17px;
+    margin: 0;
+    width: 100%;
+    height: 35px;
+}
+
+.input1 {
+    width: 100%;
+    border-radius: 8px;
+    text-indent: 5px;
+}
+
+.input2 {
+    width: 100%;
+    border-radius: 8px;
+    text-indent: 5px;
+}
+
+.submit {
+    margin: 15px 0 20px 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to right, #672280, #A626D3);
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.meme-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.meme-container > h2 {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.top {
+    top: 5%;
+}
+
+.bottom {
+    bottom: 5%;
+}
+
+.meme {
+    max-width: 75%;
+}
